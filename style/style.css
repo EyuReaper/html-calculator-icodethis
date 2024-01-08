@@ -1,0 +1,44 @@
+body {
+  background-color: #20e8a0;
+}
+.container {
+  align-items: center;
+  margin-top: 150px;
+}
+#result {
+  margin-bottom: 20px;
+  align-items: center;
+}
+table {
+  padding: 20px 20px 20px 20px;
+  border: 10px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  border-radius: 20px;
+}
+input[type="button"] {
+  width: 100%;
+  padding: 30px 30px;
+  background-color: grey;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20%;
+}
+input[type="text"] {
+  padding: 50px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+input[value="C"],
+.clear {
+  background-color: red;
+}
+input[type="button"]:hover {
+  background-color: orange;
+}
